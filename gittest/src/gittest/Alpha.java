@@ -10,4 +10,8 @@ public synchronized String getName() {
 public synchronized void setName(String name) {
 	this.name = name;
 }
+
+public int getNameLenght(){
+	return this.name.length();
+}
 }
